@@ -1,0 +1,15 @@
+{
+  "name": "node-native-test-runner-example",
+  "version": "1.0.0",
+  "description": "An example of how to use the native test runner in Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "test:coverage": "node --test --experimental-test-coverage"
+  },
+  "keywords": ["node", "test"],
+  "author": "James Mugliston",
+  "license": "MIT"
+}
